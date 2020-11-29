@@ -4,3 +4,4 @@ tutorial/spiders/__pycache__/*
 *.pyc
 *.csv
 *.html
+*.db
