@@ -1,3 +1,4 @@
 .scrapy/*
 /tutorial/__pycache__/*
 /tutorial/spiders/__pycache__/*
+*.html
