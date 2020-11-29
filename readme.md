@@ -35,3 +35,12 @@ scrapy crawl {スパイダー名} -o data.csv
 scrapy crawl scrapy_blog_spider -o data.csv
 ```
 csv の他にもデフォルトで json, json lines, xml に対応しています。
+
+## sqlite3
+作成したデータベースの中身の内容の確認方法。<br>
+参考文献：[sqlite のコマンド集](https://qiita.com/rhinonolike/items/d7641e84af2c048ccb32)
+```
+sqlite3 <データベース名>
+select * from post
+.quit
+```

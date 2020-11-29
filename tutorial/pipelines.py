@@ -16,7 +16,7 @@ class TutorialPipeline(object):
     @classmethod
     def get_database(cls):
         cls._db = sqlite3.connect(
-            os.path.join(os.getcwd(), 'ten_min_scrapy.db'))
+            os.path.join(os.getcwd(), 'tutorial.db'))
 
         # テーブル作成
         cursor = cls._db.cursor()
