@@ -7,9 +7,6 @@ import scrapy
 
 
 class Post(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     url = scrapy.Field()
-    title = scrapy.Fileld()
-    date = scrapy.Fileld()
-    pass
+    title = scrapy.Field()
+    date = scrapy.Field()
