@@ -1,4 +1,6 @@
 .scrapy/*
-/tutorial/__pycache__/*
-/tutorial/spiders/__pycache__/*
+tutorial/__pycache__/*
+tutorial/spiders/__pycache__/*
+*.pyc
+*.csv
 *.html
